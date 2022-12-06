@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}li, a, button{
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(43, 43, 41);
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 10px;
+    background-color: darkblue;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    font-size: 32px;
+    font-weight: 700;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width : 50px;
+    border-radius: 100%;
+}
+.logo:hover{
+    width: 200px;
+    transition: 4s;
+}
+.nav-list{
+    list-style: none;
+    padding-left: 60px;
+}
+.nav-list li{
+    display: inline-block;
+    padding: opx 20px;
+}
+.nav-list li a{
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+.nav-list li a:hover{
+    color :chartreuse;
+}
+.heading{
+    color : white;
+    text-shadow: 2px 2px 2px green;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 9;
+    padding-bottom: 20px;
+    margin-bottom: 0.5px;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(4, 39, 39);
+    letter-spacing: 20px;
+    height: 40px;
+}
+.image{
+    width : 70%;
+}
+.buttons{
+    width :50%;
+    padding-bottom:  20px;
+    border: 1px solid burlywood;
+    margin: 20px;
+    background-color: rgb(231, 223, 212);
+}
+.body{
+    text-align: center;
+    align-items: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: wheat;
+    text-decoration: none;
+    line-height: 30px;
+}
+nav ul ul{
+    position: absolute;
+    top: 30px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+    transition: all 8s;
+    background-color: blue;
+    color: white;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}

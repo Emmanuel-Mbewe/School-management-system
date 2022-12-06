@@ -1,0 +1,40 @@
+textarea{
+    height: 25vh;
+    max-height: 80vh;
+    width: 50vh;
+    max-width: 80vh;
+    font-size: large;
+    text-align: center;
+}
+.data{
+    text-align: center;
+    height: 10vh;
+    width: 50vh;
+    font-size: larger;
+    font-weight: bolder;
+    max-height: 20vh;
+}
+button{
+    margin-top: 5px;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    border: 0ch;
+    border-radius: 5px;
+    height: 5vh;
+    width: 40vh;
+}
+label{
+    font-size: larger;
+    letter-spacing: 2px;
+
+}
+#title{
+    color: red;
+    font-weight: bolder;
+    letter-spacing: 6px;
+}
+#post{
+    color: green;
+    font-size: larger;
+}

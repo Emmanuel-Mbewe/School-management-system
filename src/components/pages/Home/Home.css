@@ -1,0 +1,76 @@
+.home{
+    float: left;
+    margin: 5px;
+}
+#first{
+    width: 20%;
+    background-color: ghostwhite;
+}
+#second{
+    width: 75%;
+}
+.content{
+    background-color: whitesmoke;
+    margin: 3px;
+}
+.image-section{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 3px;
+}
+#link-cus{
+    background-color: blue;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.inf-link{
+    border-radius: 5px;
+    background-color: white;
+    color: skyblue;
+    font-size:800;
+    font-weight: bolder;
+    box-shadow: 1px seagreen;
+}
+.welcoming-message{
+    color: cadetblue;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    background-color: white;
+}
+.home-container{
+    height: 62vh;
+}
+.main-footer{
+    padding-top: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: #040429;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 26vh;
+    padding-bottom: 30px;
+}
+.line{
+    color: white;
+}
+.copy{
+    bottom: 0;
+}
+.fb{
+    font-size: 20px;
+    color: white;
+}
+.footer-div{
+    float: left;
+    width: 30%;
+    margin: 3px;
+}

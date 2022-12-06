@@ -1,0 +1,56 @@
+/* .title{
+    
+    margin-bottom: 3px;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(192, 190, 196);
+    
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 99%;
+    height: 30px;
+    
+}.post_body{
+    
+    font-size: larger;
+    color: cadetblue;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.post{
+    float: left;
+    margin: 5px;
+}
+#one{
+    width: 10%;
+}
+#two{
+    text-align: left;
+    width: 70%;
+    border-radius: 3px;
+}
+#three{
+    width: 10%;
+}
+.post_title{
+    background-color: green;
+    color: white;   
+    border-radius: 5px;
+}
+p{
+    
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+hr{
+    margin-bottom: 20px;
+} */
+.announcements{
+    background-color: yellow;
+    color: green;
+    font-weight: bolder;
+    font-size: larger;
+    height: 10vh;
+    margin-top: 2px;
+}

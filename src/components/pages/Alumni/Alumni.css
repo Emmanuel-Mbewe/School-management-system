@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: rgb(15, 103, 180);
+    border-radius: 5px;
+}
+.alumni{
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    width: 30%;
+
+}
+p{
+    color: gray;
+}
+select{
+    width: 88%;
+    height: 5vh;
+    font-size: large;
+    font-weight: bold;
+    color: skyblue;
+    border: 0ch;
+}
+option{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: skyblue;
+
+}
+input{
+    width: 88%;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+form{
+    box-sizing: border-box;
+    border: 1px 1px 1px rebeccapurple;
+}
+.alumni-button{
+    width: 77%;
+}
